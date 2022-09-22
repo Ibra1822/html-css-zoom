@@ -19,7 +19,7 @@ header{
 
 header i{
   color: white;
-  font-size: 0.7rem;
+  font-size: 1vw;
   padding: 5px;
   margin: 0px 4px 0px 3px;
   background-color: rgba(101, 113, 126, 0.5);
@@ -28,7 +28,7 @@ header i{
 
 header span{margin-left: 5px;}
 
-
+/* fine header  */
 
 main{
   width: 100%;
@@ -68,18 +68,83 @@ main .users .user{
   padding: 4px;
   background-color: rgba(101, 113, 126, 0.5);
 }
-
-
-
-
-
-
-
-
-
+/* fine main  */
 
 footer{
-  width: 100%;
+  min-width: 100%;
   height: 60px;
-  background-color: darkgray;
+  background-color: #232222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.left{
+   min-width: 230px;
+}
+
+ .icon{
+  display: inline-block;
+  text-align: center;
+  margin: 5px;
+  color: #FFFFFF;
+  position: relative;
+  margin: 15px;
+  }
+
+ .icon a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.icon .act{font-size: 10px;}
+
+.icon .fir{font-size: 10px;}
+
+.first{
+  position: relative;
+}
+
+.fir{
+  position: absolute;
+  top: 5px;
+  left: 34px;
+}
+
+.util{position: relative;}
+
+.act{
+  position: absolute;
+ top: 5px;
+ right: 5px;
+}
+
+.icon a:active{
+  color: #4AC800;
+}
+
+ .icon i{
+  font-size: 1.2rem;
+  display: block;
+}
+
+.center{
+  display: flex;
+  min-width: 735px;
+}
+
+
+.right .end{
+  padding: 24px;
+  color: #E02620;
+  font-size: 0.7rem;
+}
+
+.right a{
+  text-decoration: none;
+}
+
+.end:active{
+ background-color: #4A4949;
+}
+
