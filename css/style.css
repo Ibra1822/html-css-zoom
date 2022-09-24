@@ -79,8 +79,8 @@ footer{
   justify-content: space-between;
 }
 
-.left{
-   min-width: 230px;
+.left,.center,.right{
+  flex-shrink: 0;
 }
 
  .icon{
@@ -97,9 +97,9 @@ footer{
   color: #FFFFFF;
 }
 
-.icon .act{font-size: 10px;}
+.icon .act{font-size: 1vw;}
 
-.icon .fir{font-size: 10px;}
+.icon .fir{font-size: 1vw;}
 
 .first{
   position: relative;
@@ -130,7 +130,6 @@ footer{
 
 .center{
   display: flex;
-  min-width: 735px;
 }
 
 
